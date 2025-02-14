@@ -365,11 +365,11 @@ a.app_link{
 	height: auto;
 }
 
-.about .features_list{
+.features_list{
 	margin-left: 50px;
 }
 
-.about .features_list h1{
+.features_list h1{
 	color: #525151;
 	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
@@ -379,7 +379,7 @@ a.app_link{
 	word-break: break-word;
 }
 
-.about .features_list p{
+.features_list p{
 	color: #767272;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -387,11 +387,11 @@ a.app_link{
 	line-height: 32px;
 }
 
-.about .features_list ul{
+.features_list ul{
 	margin-bottom: 30px;
 }
 
-.about .features_list ul li{
+.features_list ul li{
 	display: block;
 	position: relative;
 	color: #6c6c6c;
@@ -406,32 +406,32 @@ a.app_link{
 	-webkit-transition: all .2s linear;
 }
 
-.about .features_list ul li.camera_icon{
+.features_list ul li.camera_icon{
 	background: url('../img/icon1.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.video_icon{
+.features_list ul li.video_icon{
 	background: url('../img/icon2.png') no-repeat;
 	background-position: 0 15px;
 }
 
-.about .features_list ul li.eye_icon{
+.features_list ul li.eye_icon{
 	background: url('../img/icon3.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.pic_icon{
+.features_list ul li.pic_icon{
 	background: url('../img/icon4.png') no-repeat;
 	background-position: 0 14px;
 }
 
-.about .features_list ul li.loc_icon{
+.features_list ul li.loc_icon{
 	background: url('../img/icon5.png') no-repeat;
 	background-position: 3px 13px;
 }
 
-.about .features_list ul li span{
+.features_list ul li span{
 	display: inline-block;
 }
 
@@ -483,13 +483,13 @@ a.app_link{
 	margin: 0 auto;
 }
 
-.testimonials .testimonials_list blockquote{
+ blockquote{
 	border: 0;
 	padding: 0;
 	margin: 0;
 }
 
-.testimonials .testimonials_list blockquote p{
+ blockquote p{
 	color: #e2f1ee;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -497,24 +497,24 @@ a.app_link{
 	line-height: 36px;
 }
 
-.testimonials .testimonials_list blockquote footer:before,
-.testimonials .testimonials_list blockquote footer:after{
+ blockquote footer:before,
+ blockquote footer:after{
 	content: none;
 }
 
-.testimonials .testimonials_list blockquote .author,
-.testimonials .testimonials_list blockquote .job{
+.author,
+.job{
 	display: block;
 }
 
-.testimonials .testimonials_list blockquote .author{
+.author{
 	color: #4b4848;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
 
-.testimonials .testimonials_list blockquote .job{
+.job{
 	color: #6e6d6d;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -801,15 +801,12 @@ footer .copyright a{
 	}
 
 	/*		Subscription section 		*/
-	.sub_box #mc-email,
-	.sub_box #mc_submit{
+	#mc-email,
+	#mc_submit{
 		display: block;
 		width: 90%;
 		margin: 0 auto;
 		text-align: center;
-	}
-
-	.sub_box #mc_submit{
 		margin-top: 20px;
 	}
 }
