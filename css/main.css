@@ -165,6 +165,14 @@ header .social li:first-child{
 }
 
 /*		Hero section 		*/
+.hero {
+	background: url('../img/hero.webp') no-repeat fixed center center;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+  }
 
 .caption{
 	position: absolute;
@@ -224,7 +232,7 @@ a.app_store_btn{
 
 /* check */
 .play_icon{
-	background: url('../img/play.png') no-repeat;
+	background: url('../img/play.webp') no-repeat;
 }
 
 .iphone_icon{
