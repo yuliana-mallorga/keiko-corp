@@ -19,7 +19,7 @@
     <noscript><link rel="stylesheet" href="css/bootstrap.css" /></noscript>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="preload" href="img/hero.webp" as="image" type="image/webp">
+    <link rel="preload" href="img/hero.webp" as="image" type="image/webp" />
   </head>
   <body>
     <!--  Header Section -->
@@ -27,6 +27,11 @@
       <div class="container">
         <div class="logo pull-left animated wow fadeInLeft">
           <img
+            style="
+              width: 200px;
+              border-radius: 5px 20px 5px;
+              box-shadow: 0 8px 6px -6px black;
+            "
             class="logo-image"
             src="img/logo.png"
             alt="logo de la aplicacion"
@@ -51,13 +56,13 @@
         <div class="social pull-right">
           <ul class="list-unstyled">
             <li class="animated wow fadeInRight" data-wow-delay=".2s">
-              <a href="#"><img src="img/facebook.png" alt="" title="" /></a>
+              <a href="#"><img src="img/facebook.png" alt="facebook" title="facebook" /></a>
             </li>
             <li class="animated wow fadeInRight" data-wow-delay=".1s">
-              <a href="#"><img src="img/twitter.png" alt="" title="" /></a>
+              <a href="#"><img src="img/twitter.png" alt="twitter" title="twitter" /></a>
             </li>
             <li class="animated wow fadeInRight" data-wow-delay="0s">
-              <a href="#"><img src="img/google.png" alt="" title="" /></a>
+              <a href="#"><img src="img/google.png" alt="google" title="google" /></a>
             </li>
           </ul>
         </div>
@@ -106,25 +111,25 @@
       <div class="container">
         <ul class="list-unstyled text-center clearfix">
           <li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown">
-            <img src="img/google_logo.png" alt="" title="" />
+            <img src="img/google_logo.webp" alt="google logo" title="google logo" />
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".2s"
           >
-            <img src="img/facebook_logo.png" alt="" title="" />
+            <img src="img/facebook_logo.webp" alt="facebook logo" title="facebook logo" />
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".3s"
           >
-            <img src="img/yahoo_logo.png" alt="" title="" />
+            <img src="img/yahoo_logo.webp" alt="yahoo logo" title="yahoo logo" />
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".4s"
           >
-            <img src="img/paypal_logo.png" alt="" title="" />
+            <img src="img/paypal_logo.webp" alt="paypal logo" title="paypal logo" />
           </li>
         </ul>
       </div>
@@ -137,7 +142,12 @@
         <div class="row">
           <div class="col-md-6 text-center animated wow fadeInLeft">
             <div class="iphone">
-              <img src="img/iphone.webp" alt="*" titl="*" />
+              <img
+                style="width: 100%; height: auto"
+                src="img/iphone.webp"
+                alt="iphone"
+                titl="iphone"
+              />
             </div>
           </div>
           <div class="col-md-6 animated wow fadeInRight">
@@ -361,7 +371,7 @@
           <a href=""><img src="img/ios_icon.png" alt="" title="" /></a>
         </li>
         <li class="animated wow fadeInDown" data-wow-delay=".2s">
-          <a href=""><img src="img/windows_icon.png" alt="" title="" /></a>
+          <a href=""><img src="img/windows_icon.png" alt="windows icon" title="windows icon" /></a>
         </li>
       </ul>
       <p class="copyright animated wow fadeIn" data-wow-duration="2s">
@@ -371,17 +381,17 @@
 
     <!--  End Footer Section  -->
     <script>
-      const loadStyleSheet = src => {
-        const styleSheet = document.createElement("link")
-        styleSheet.href = src
-        styleSheet.type = "text/css"
-        styleSheet.rel = "stylesheet"
-        document.head.appendChild(styleSheet);        
-      }
-      window.onload = function (){
-        loadStyleSheet("css/owl.transitions.css")
-        loadStyleSheet("css/owl.carousel.css")
-      }
+      const loadStyleSheet = (src) => {
+        const styleSheet = document.createElement("link");
+        styleSheet.href = src;
+        styleSheet.type = "text/css";
+        styleSheet.rel = "stylesheet";
+        document.head.appendChild(styleSheet);
+      };
+      window.onload = function () {
+        loadStyleSheet("css/owl.transitions.css");
+        loadStyleSheet("css/owl.carousel.css");
+      };
     </script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/ajaxchimp.js"></script>

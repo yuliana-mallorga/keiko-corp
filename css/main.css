@@ -84,12 +84,6 @@ header .logo{
 	margin: 45px 100px 0 0;
 }
 
-.logo img{
-	width: 200px;
-	border-radius: 5px 20px 5px;
-	box-shadow: 0 8px 6px -6px black;
-}
-
 header .burger_icon{
 	display: none;
 	float: right;
@@ -355,11 +349,6 @@ a.app_link{
 	position: relative;
 	display: inline-block;
 	text-align: center;
-}
-
-.about .iphone img{
-	width: 100%;
-	height: auto;
 }
 
 .features_list{
