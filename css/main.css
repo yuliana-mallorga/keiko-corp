@@ -34,9 +34,7 @@
 
 }
 
-footer {
-	background: #fffcfc;
-}
+
 
 /*		General CSS		*/
 body{
@@ -168,16 +166,7 @@ header .social li:first-child{
 
 /*		Hero section 		*/
 
-.hero{
-	display: block;
-	position: relative;
-	width: 100%;
-	height: 660px;
-	background: url('../img/hero.webp') no-repeat fixed center center;
-	background-size: cover;
-}
-
-.hero .caption{
+.caption{
 	position: absolute;
 	max-width: 550px;
 	margin-left: 80px;
@@ -186,11 +175,10 @@ header .social li:first-child{
 	-webkit-transform:translate(0,-50%);
 	-moz-transform:translate(0,-50%);
 	-o-transform:translate(0,-50%);
-}
+} 
 
 .hero .caption h1{
 	color: #525252;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: bold;
 	word-break: break-word;
@@ -234,6 +222,7 @@ a.app_store_btn{
 	margin-bottom: 3px;
 }
 
+/* check */
 .play_icon{
 	background: url('../img/play.png') no-repeat;
 }
@@ -671,8 +660,9 @@ a.app_link{
 /*		Footer 		*/
 
 footer{
-	padding: 100px 0;
+	padding: 100px 0 0;
 	text-align: center;
+	background: #fffcfc;
 }
 
 footer .app_platform li{
