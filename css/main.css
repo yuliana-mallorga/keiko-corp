@@ -692,6 +692,13 @@ footer .copyright a{
         display: block;
         width: 100%;
     }
+	.sub_box #mc-email {
+		margin-right: -64px;
+		width: 85%;
+	}
+	footer {
+		padding: 50px 0px 10px;
+	}
 }
 
 @media (max-width: 414px) {
