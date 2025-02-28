@@ -366,7 +366,7 @@ a.app_link{
 }
 
 .features_list p{
-	color: #767272;
+	color: #525151;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	margin-bottom: 45px;
@@ -380,7 +380,7 @@ a.app_link{
 .features_list ul li{
 	display: block;
 	position: relative;
-	color: #6c6c6c;
+	color: #525151;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 44px;
@@ -684,16 +684,77 @@ footer .copyright a{
 
 /*		Responsive CSS 		*/
 
-@media (max-width: 360px) {
-	.featured_on li{
-		display: block;
-		width: 100%;
+@media (max-width: 361px) {
+    .featured_on li {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+	header {
+		height: 120px;
+	}
+	header .logo img{
+		height: 30px!important;
+		width: auto!important;
+	}
+	.hero .caption h1 {
+		font-size: 24px;
+	}
+	.hero .caption p {
+		font-size: 14px;
+		line-height: 22px;
+		margin: 15px 0 25px 0;
+	}
+	.android_icon{
+		background: none;
+		display: none;
+	}
+	.iphone_icon{
+		background: none;
+		display: none;
+	}
+	a.app_store_btn {
+		margin: 3px auto; 
+		font-size: 12px;
+	}
+	a.app_store_btn:hover .iphone_icon{
+		background: none;
+		display: none;
+	}
+	
+	a.app_store_btn:hover .android_icon{
+		background: none;
+		display: none;
+	}
+
+	.iphone img{
+		width: 50%!important;
+	}
+
+	.features_list h1{
+		font-size: 24px;
+		line-height: 26px;
+		margin: 0 0 10px 0;
+	}
+	.features_list p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.features_list ul li{
+		font-size: 14px;
+		line-height: 34px;
+	}
+
+	footer img{
+		width: auto;
+		height: 32px;
 	}
 }
 
 @media (max-width: 767px) {
-
-
 	/*		Header 		*/
 	header .logo{
 		margin-right: 0;
@@ -745,13 +806,18 @@ footer .copyright a{
 	}
 
 	/*		Hero section 		*/
+	.hero {
+		background: url(../img/hero-800px.jpg) no-repeat fixed center center;
+        height: 368px;
+	  }
+
 	.hero .caption{
 		margin-left: 0;
 	}
 
-	.app_store_btn{
+	a.app_store_btn{
 		display: block;
-		width: 90%;
+		width: 80%;
 		padding-left: 0;
 		padding-right: 0;
 		text-align: center;
@@ -775,6 +841,7 @@ footer .copyright a{
 	.about .features_list ul li{
 		text-indent: 0;
 		background: transparent!important;
+		margin: auto;
 		margin-bottom: 20px;
 	}
 

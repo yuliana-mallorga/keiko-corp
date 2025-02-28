@@ -18,7 +18,6 @@
     />
     <noscript><link rel="stylesheet" href="css/bootstrap.css" /></noscript>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="preload" href="img/hero.webp" as="image" type="image/webp" />
   </head>
   <body>
@@ -29,6 +28,7 @@
           <img
             style="
               width: 200px;
+              height: auto;
               border-radius: 5px 20px 5px;
               box-shadow: 0 8px 6px -6px black;
             "
@@ -56,13 +56,19 @@
         <div class="social pull-right">
           <ul class="list-unstyled">
             <li class="animated wow fadeInRight" data-wow-delay=".2s">
-              <a href="#"><img src="img/facebook.png" alt="facebook" title="facebook" /></a>
+              <a href="#"
+                ><img src="img/facebook.png" alt="facebook" title="facebook"
+              /></a>
             </li>
             <li class="animated wow fadeInRight" data-wow-delay=".1s">
-              <a href="#"><img src="img/twitter.png" alt="twitter" title="twitter" /></a>
+              <a href="#"
+                ><img src="img/twitter.png" alt="twitter" title="twitter"
+              /></a>
             </li>
             <li class="animated wow fadeInRight" data-wow-delay="0s">
-              <a href="#"><img src="img/google.png" alt="google" title="google" /></a>
+              <a href="#"
+                ><img src="img/google.png" alt="google" title="google"
+              /></a>
             </li>
           </ul>
         </div>
@@ -111,25 +117,69 @@
       <div class="container">
         <ul class="list-unstyled text-center clearfix">
           <li class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown">
-            <img src="img/google_logo.webp" alt="google logo" title="google logo" />
+            <picture>
+              <source
+                media="(max-width: 360px)"
+                srcset="img/google_logo_100.webp"
+                type="image/webp"
+              />
+              <img
+                src="img/google_logo.webp"
+                alt="google logo"
+                title="google logo"
+              />
+            </picture>
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".2s"
           >
-            <img src="img/facebook_logo.webp" alt="facebook logo" title="facebook logo" />
+            <picture>
+              <source
+                media="(max-width: 360px)"
+                srcset="img/facebook_logo_100.webp"
+                type="image/webp"
+              />
+              <img
+                src="img/facebook_logo.webp"
+                alt="facebook logo"
+                title="facebook logo"
+              />
+            </picture>
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".3s"
           >
-            <img src="img/yahoo_logo.webp" alt="yahoo logo" title="yahoo logo" />
+            <picture>
+              <source
+                media="(max-width: 360px)"
+                srcset="img/yahoo_logo_100.webp"
+                type="image/webp"
+              />
+              <img
+                src="img/yahoo_logo.webp"
+                alt="yahoo logo"
+                title="yahoo logo"
+              />
+            </picture>
           </li>
           <li
             class="col-xs-6 col-sm-6 col-md-3 animated wow fadeInDown"
             data-wow-delay=".4s"
           >
-            <img src="img/paypal_logo.webp" alt="paypal logo" title="paypal logo" />
+            <picture>
+              <source
+                media="(max-width: 360px)"
+                srcset="img/paypal_logo_100.webp"
+                type="image/webp"
+              />
+              <img
+                src="img/paypal_logo.webp"
+                alt="paypal logo"
+                title="paypal logo"
+              />
+            </picture>
           </li>
         </ul>
       </div>
@@ -205,7 +255,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay="0s"
           >
-            <img src="img/f_icon1.png" alt="" title="" />
+            <img
+              src="img/f_icon1.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -216,7 +272,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay=".1s"
           >
-            <img src="img/f_icon2.png" alt="" title="" />
+            <img
+              src="img/f_icon2.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -227,7 +289,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay=".2s"
           >
-            <img src="img/f_icon3.png" alt="" title="" />
+            <img
+              src="img/f_icon3.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -240,7 +308,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay="0s"
           >
-            <img src="img/f_icon4.png" alt="" title="" />
+            <img
+              src="img/f_icon4.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -251,7 +325,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay=".1s"
           >
-            <img src="img/f_icon5.png" alt="" title="" />
+            <img
+              src="img/f_icon5.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -262,7 +342,13 @@
             class="col-sm-4 col-md-4 details animated wow fadeInDown"
             data-wow-delay=".2s"
           >
-            <img src="img/f_icon6.png" alt="" title="" />
+            <img
+              src="img/f_icon6.png"
+              alt="icon"
+              title="icon"
+              width="28px"
+              height="28px"
+            />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
               vel ultrices mauris libero id diam. Vivamus tellus sagittis
@@ -371,7 +457,12 @@
           <a href=""><img src="img/ios_icon.png" alt="" title="" /></a>
         </li>
         <li class="animated wow fadeInDown" data-wow-delay=".2s">
-          <a href=""><img src="img/windows_icon.png" alt="windows icon" title="windows icon" /></a>
+          <a href=""
+            ><img
+              src="img/windows_icon.png"
+              alt="windows icon"
+              title="windows icon"
+          /></a>
         </li>
       </ul>
       <p class="copyright animated wow fadeIn" data-wow-duration="2s">
@@ -391,6 +482,7 @@
       window.onload = function () {
         loadStyleSheet("css/owl.transitions.css");
         loadStyleSheet("css/owl.carousel.css");
+        loadStyleSheet("css/animate.css");
       };
     </script>
     <script type="text/javascript" src="js/jquery.js"></script>
