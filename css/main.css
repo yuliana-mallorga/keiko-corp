@@ -660,7 +660,7 @@ a.app_link{
 /*		Footer 		*/
 
 footer{
-	padding: 100px 0;
+	padding: 80px 0;
 	text-align: center;
 	background: #fffcfc;
 }
@@ -685,21 +685,6 @@ footer .copyright a{
 	color: #565555;
 }
 
-/*		Responsive CSS 		*/
-
-@media (max-width: 361px) {
-    .featured_on li {
-        display: block;
-        width: 100%;
-    }
-	.sub_box #mc-email {
-		margin-right: -64px;
-		width: 85%;
-	}
-	footer {
-		padding: 50px 0px 10px;
-	}
-}
 
 @media (max-width: 414px) {
 	header {
@@ -738,11 +723,6 @@ footer .copyright a{
 		background: none;
 		display: none;
 	}
-
-	.iphone img{
-		width: 50%!important;
-	}
-
 	.features_list h1{
 		font-size: 24px;
 		line-height: 26px;
@@ -756,6 +736,13 @@ footer .copyright a{
 	.features_list ul li{
 		font-size: 14px;
 		line-height: 34px;
+	}
+	.sub_box #mc-email {
+		margin-right: -64px;
+		width: 85%;
+	}
+	footer {
+		padding: 50px 0px 10px;
 	}
 
 	footer img{
@@ -817,7 +804,7 @@ footer .copyright a{
 
 	/*		Hero section 		*/
 	.hero {
-		background: url(../img/hero-800px.jpg) no-repeat fixed center center;
+		background: url(../img/hero-800px.webp) no-repeat fixed center center;
         height: 368px;
 	  }
 
@@ -831,6 +818,7 @@ footer .copyright a{
 		padding-left: 0;
 		padding-right: 0;
 		text-align: center;
+		margin: auto;
 	}
 
 	/*		Featured on section		*/
@@ -864,6 +852,9 @@ footer .copyright a{
 		margin-top: 20px;
 	}
 
+	.iphone img{
+		width: 250px!important;
+	}
 	/*		Subscription section 		*/
 	#mc-email,
 	#mc_submit{

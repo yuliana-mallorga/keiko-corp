@@ -11,14 +11,19 @@
     />
 
     <link
-      rel="preload"
+      rel="stylesheet"
       href="css/bootstrap.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
+      media="print"
+      onload="this.media='all'"
     />
-    <noscript><link rel="stylesheet" href="css/bootstrap.css" /></noscript>
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="preload" href="img/hero.webp" as="image" type="image/webp" />
+    <link
+      rel="preload"
+      href="img/hero-800px.webp"
+      as="image"
+      type="image/webp"
+    />
   </head>
   <body>
     <!--  Header Section -->
@@ -28,7 +33,7 @@
           <img
             style="
               width: 200px;
-              height: auto;
+              height: 38px;
               border-radius: 5px 20px 5px;
               box-shadow: 0 8px 6px -6px black;
             "
@@ -125,6 +130,7 @@
               />
               <img
                 src="img/google_logo.webp"
+                style="width: 130 px; height: 45px"
                 alt="google logo"
                 title="google logo"
               />
@@ -142,6 +148,7 @@
               />
               <img
                 src="img/facebook_logo.webp"
+                style="width: 130 px; height: 45px"
                 alt="facebook logo"
                 title="facebook logo"
               />
@@ -159,6 +166,7 @@
               />
               <img
                 src="img/yahoo_logo.webp"
+                style="width: 130 px; height: 45px"
                 alt="yahoo logo"
                 title="yahoo logo"
               />
@@ -176,6 +184,7 @@
               />
               <img
                 src="img/paypal_logo.webp"
+                style="width: 130 px; height: 45px"
                 alt="paypal logo"
                 title="paypal logo"
               />
@@ -193,7 +202,7 @@
           <div class="col-md-6 text-center animated wow fadeInLeft">
             <div class="iphone">
               <img
-                style="width: 100%; height: auto"
+                style="width: 500px; height: auto"
                 src="img/iphone.webp"
                 alt="iphone"
                 titl="iphone"
@@ -259,8 +268,8 @@
               src="img/f_icon1.png"
               alt="icon"
               title="icon"
-              width="28px"
-              height="28px"
+              width="36px"
+              height="32px"
             />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
@@ -276,8 +285,8 @@
               src="img/f_icon2.png"
               alt="icon"
               title="icon"
-              width="28px"
-              height="28px"
+              width="36px"
+              height="32px"
             />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
@@ -293,8 +302,8 @@
               src="img/f_icon3.png"
               alt="icon"
               title="icon"
-              width="28px"
-              height="28px"
+              width="36px"
+              height="32px"
             />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
@@ -312,8 +321,8 @@
               src="img/f_icon4.png"
               alt="icon"
               title="icon"
-              width="28px"
-              height="28px"
+              width="36px"
+              height="32px"
             />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
@@ -329,8 +338,8 @@
               src="img/f_icon5.png"
               alt="icon"
               title="icon"
-              width="28px"
-              height="28px"
+              width="36px"
+              height="32px"
             />
             <h1 class="text-uppercase">malesuada fames turpis.</h1>
             <p class="text-lowercase">
@@ -451,14 +460,27 @@
     <footer>
       <ul class="list-unstyled list-inline app_platform">
         <li class="animated wow fadeInDown" data-wow-delay="0s">
-          <a href=""><img src="img/android_icon.png" alt="" title="" /></a>
+          <a href=""
+            ><img
+              style="width: 33px; height: 28px;"
+              src="img/android_icon.png"
+              alt="android_icon"
+              title="android_icon"
+          /></a>
         </li>
         <li class="animated wow fadeInDown" data-wow-delay=".1s">
-          <a href=""><img src="img/ios_icon.png" alt="" title="" /></a>
+          <a href=""
+            ><img
+              style="width: 28px; height: 28px;"
+              src="img/ios_icon.png"
+              alt="ios_icon"
+              title="ios_icon"
+          /></a>
         </li>
         <li class="animated wow fadeInDown" data-wow-delay=".2s">
           <a href=""
             ><img
+              style="width: 33px; height: 28px;"
               src="img/windows_icon.png"
               alt="windows icon"
               title="windows icon"
@@ -485,7 +507,7 @@
         loadStyleSheet("css/animate.css");
       };
     </script>
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script async type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/ajaxchimp.js"></script>
     <script defer type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script defer type="text/javascript" src="js/wow.js"></script>
